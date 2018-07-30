@@ -14,7 +14,7 @@
   <body>
     <!-- layouts/layout.erb -->
     <%= partial "layouts/navbar" %>
-    <%= partial "layouts/card" %>    <!-- inject layouts/_navbar.html.erb -->
+    <!-- inject layouts/_navbar.html.erb -->
     <%= yield %>                      <!-- Page content is injected here -->
     <%= partial "layouts/footer" %>   <!-- inject layouts/_footer.html.erb -->
   </body>
